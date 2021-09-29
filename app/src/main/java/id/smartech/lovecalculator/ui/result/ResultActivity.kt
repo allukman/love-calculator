@@ -25,6 +25,7 @@ class ResultActivity : BaseActivity<ActivityResultBinding>() {
 
         setViewModel(sname!!,fname!!)
         subscribeLiveData()
+        setStatusBar()
         setData()
 
     }

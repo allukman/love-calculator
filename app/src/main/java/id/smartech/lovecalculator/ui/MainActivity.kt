@@ -19,6 +19,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
 
         setOnClick()
+        setStatusBar()
     }
 
     private fun setOnClick(){
